@@ -1,5 +1,7 @@
+package assignment;
+
 import java.util.Scanner;
-public class simple_calculator_assignment {
+public class simple_calculator {
     static double add(double a,double b){
         return (a+b);
     }
@@ -29,3 +31,4 @@ public class simple_calculator_assignment {
         input.close();
     }
 }
+

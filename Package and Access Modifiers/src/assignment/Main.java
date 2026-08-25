@@ -1,3 +1,5 @@
+package assignment;
+
 import utility.MathUtils;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package assignment;
+
 import java.util.Scanner;
 
 public class check_the_number {
@@ -56,3 +58,4 @@ public class check_the_number {
     }
 
 }
+

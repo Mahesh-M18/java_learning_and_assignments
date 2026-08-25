@@ -1,4 +1,4 @@
-package utility;
+package assignment.utility;
 
 public class MathUtils {
 
@@ -22,3 +22,4 @@ public class MathUtils {
         return (a / b);
     }
 }
+

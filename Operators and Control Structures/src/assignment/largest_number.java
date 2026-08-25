@@ -1,3 +1,5 @@
+package assignment;
+
 import java.util.Scanner;
 public class largest_number {
     public static void main(String[] args) {
@@ -19,3 +21,4 @@ public class largest_number {
         input.close();
     }
 }
+
