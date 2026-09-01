@@ -27,4 +27,16 @@ Smaller type -> larger compatible type.
 
 Narrowing casting
 Larger type -> smaller type.
+
+Implicit casting
+Java does this type of casting automatically
+double p = 100.0;
+double fP = p + 18; int -> double
+output - 118.0
+
+explicit casting
+need to inform about casting
+int p = 100;
+int fP = p + int(18.18);
+output - 118
  */
