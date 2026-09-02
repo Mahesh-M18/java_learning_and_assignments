@@ -1,5 +1,5 @@
 public class Strings2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String message = "Hello Mahesh";
         System.out.println(message.contains("Mahesh")); //searching inside a string
         System.out.println(message.contains("Java"));
@@ -13,12 +13,12 @@ public class Strings2 {
         // and can't identify different types of spaces except tab spaces and nextline etc
         System.out.println(name.strip()); // removes spaces and is smart , newer version
 
-        String fullname = "Mahesh M";
-        String part = fullname.substring(0,4); //substring
+        String fullName = "Mahesh M";
+        String part = fullName.substring(0,4); //substring
         System.out.println(part);
 
-        for (int i=0;i<fullname.length();i++){
-            System.out.println(fullname.charAt(i));
+        for (int i=0;i<fullName.length();i++){
+            System.out.println(fullName.charAt(i));
         }
 
         String text = " J a v a i s f u n ";

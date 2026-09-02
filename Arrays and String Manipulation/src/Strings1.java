@@ -6,24 +6,24 @@ public class Strings1 {
         String name = "Mahesh M";
         System.out.println(name);
 
-        String firstname = "Mahesh";
-        String lastname = "M";
+        String firstName = "Mahesh";
+        String lastName = "M";
 
-        String fullname = firstname + " " + lastname;
-        System.out.println(fullname);
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
 
-        System.out.println(fullname.length()); //includes spaces also .length() is a method is strings
+        System.out.println(fullName.length()); //includes spaces also .length() is a method is strings
         // but .length in arrays is a property
 
-        char first = fullname.charAt(0); //Accessing individual characters, indexing starts from 0
+        char first = fullName.charAt(0); //Accessing individual characters, indexing starts from 0
         System.out.println(first);
 
-        System.out.println(fullname.toLowerCase());
-        System.out.println(fullname.toUpperCase());
+        System.out.println(fullName.toLowerCase());
+        System.out.println(fullName.toUpperCase());
 
 
-        System.out.println(name==fullname); //checks whether two variables are pointing to the same string object in memory
-        System.out.println(name.equals(fullname)); //Compares content of the strings so output is true
+        System.out.println(name==fullName); //checks whether two variables are pointing to the same string object in memory
+        System.out.println(name.equals(fullName)); //Compares content of the strings so output is true
     }
 }
 
